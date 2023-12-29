@@ -1,0 +1,58 @@
+<!-- Add New Subcription -->
+<div class="modal fade" id="addnew" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="addnew">Add New Subcription</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body text-center">
+            <div class="mb-3">
+                <label for="subName" class="form-label">Subcription Name</label>
+                <input type="text" class="form-control" id="subName">
+            </div>
+            <div class="mb-3">
+                <label for="price" class="form-label">Price</label>
+                <div class="input-group mb-3">
+                    <span class="input-group-text">$</span>
+                    <input type="text" class="form-control">
+                    <span class="input-group-text">.00</span>
+                </div>
+                <br>
+                <div class="btn-group" role="group">
+                    <input type="radio" class="btn-check" name="pt" id="pt1" autocomplete="off" checked>
+                    <label class="btn btn-outline-primary" for="pt1">Weekly</label>
+                  
+                    <input type="radio" class="btn-check" name="pt" id="pt2" autocomplete="off">
+                    <label class="btn btn-outline-primary" for="pt2">Monthly</label>
+                  
+                    <input type="radio" class="btn-check" name="pt" id="pt3" autocomplete="off">
+                    <label class="btn btn-outline-primary" for="pt3">Yearly</label>
+                </div>
+            </div>
+            <div class="mb-3">
+                <label for="pm" class="form-label">Payment Method</label>
+                <br>
+                <div class="btn-group" role="group">
+                    <input type="radio" class="btn-check" name="paym" id="paym1" autocomplete="off" checked>
+                    <label class="btn btn-outline-primary" for="paym1"><i class="bi bi-paypal"></i> PayPal</label>
+                  
+                    <input type="radio" class="btn-check" name="paym" id="paym2" autocomplete="off">
+                    <label class="btn btn-outline-primary" for="paym2"><i class="bi bi-credit-card"></i> Credit Card</label>
+                  
+                    <input type="radio" class="btn-check" name="paym" id="paym3" autocomplete="off">
+                    <label class="btn btn-outline-primary" for="paym3"><i class="bi bi-bank"></i> Debit</label>
+                </div>
+            </div>
+            <div class="mb-3">
+                <label for="date" class="form-label">Subcription Start Date</label>
+                <input type="date" class="form-control" id="date">
+            </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Cancel</button>
+          <button type="button" class="btn btn-outline-primary">Add</button>
+        </div>
+      </div>
+    </div>
+  </div>
