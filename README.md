@@ -5,7 +5,7 @@ Manage all your subcription from a single place !
 
 ## Author
 
-- [@VAXS](https://www.github.com/Vaxs02)
+- [@VAXS](https://www.github.com/GaelHF)
 
 
 ## Features
